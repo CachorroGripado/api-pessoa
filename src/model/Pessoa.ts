@@ -1,4 +1,4 @@
-class Pessoa {
+export class Pessoa {
 
     // atributos da classe
     private nome: string;
