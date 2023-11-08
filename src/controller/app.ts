@@ -46,7 +46,7 @@ res.json({ mensagem: "Pessoa cadastrada com sucesso" })
 app.get('/pessoas', (req, res) => {
     const listaDePessoas = listarPessoas();
 
-	console.log(`Retornando a lista das pessoas cadastradas no banco`);
+	console.log(`Retornando a lista das pessoas cadastradas`);
 
     res.json(listaDePessoas);
 });
